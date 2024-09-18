@@ -3,6 +3,7 @@ import './App.css'
 import HomePage from './pages/Home/Home'
 import AboutPage from './pages/About/About'
 import NotFoundPage from './pages/NOTFOUND/NOTFOUND'
+import UserPage from './pages/User/User'
 
 function App() {
   
@@ -14,6 +15,7 @@ function App() {
 
         <Route path='/' element={<HomePage />} />
         <Route path='/about' element={<AboutPage />} />
+        <Route path='/user/:id' element={<UserPage />} />
         <Route path='*' element={<NotFoundPage />} />
 
       </Routes>
