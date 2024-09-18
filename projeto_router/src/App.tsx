@@ -2,6 +2,7 @@ import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import './App.css'
 import HomePage from './pages/Home/Home'
 import AboutPage from './pages/About/About'
+import NotFoundPage from './pages/NOTFOUND/NOTFOUND'
 
 function App() {
   
@@ -13,7 +14,7 @@ function App() {
 
         <Route path='/' element={<HomePage />} />
         <Route path='/about' element={<AboutPage />} />
-        <Route path='*' element={<HomePage />} />
+        <Route path='*' element={<NotFoundPage />} />
 
       </Routes>
 
