@@ -8,7 +8,8 @@ const AboutPage = () => {
         <div>
 
             <h1>About Page</h1>
-            <Link to='/'>Go to Home</Link>
+            <Link to='/'>Go to Home</Link> <br />
+            <Link to='/user/:'>Go to User</Link>
 
         </div>
 

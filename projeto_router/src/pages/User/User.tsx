@@ -30,7 +30,8 @@ const UserPage = () => {
 
             <h1>User Page</h1>
             <p>User ID: {parseInt(id)}</p>
-            <Link to='/'>Go to Home</Link>
+            <Link to='/'>Go to Home</Link> <br />
+            <Link to='/about'>Go to About</Link>
 
         </div>
 
